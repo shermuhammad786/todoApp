@@ -40,13 +40,18 @@ function addition(){
         console.log(e)
     }
     function edit(e){
-    //    var val =  e.parentNode.childNodes[1]
-    //    var promp = prompt("",val.nodeValue)
-    //     val.nodeValue = promp
-    var val = klist.childNodes
-    var promp = prompt("",val.nodeValue)
-    val = promp
-    console.log(val)
+        // var val =  e.parentNode.childNodes[1]
+        // var input = document.createElement("input")
+        // input.setAttribute("type","text")
+        // input.setAttribute("id","inputtt")
+        // input.setAttribute("value","sher")
+        // input.innerHTML = val.nodeValue
+        
+
+       var val =  e.parentNode.childNodes[1]
+       var promp = prompt("",val.nodeValue)
+        val.nodeValue = promp
+    // console.log(val)
     }
     function DeleteAll(){
       klist.innerHTML = "";
